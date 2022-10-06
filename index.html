@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="main-grid">
+            <div class="nav">
+                <!-- <div id="color-block">#F55A5A</div> -->
+                <input type="color" id="color-picker" value="#F55A5A">
+                <form action="#">
+                    <select name="menu-elements" id="menu-elements">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                    </select>
+                <button id="btn" class="nav-button">Get color scheme</button>
+                </form>
+            </div>
+            <div class="bar-group">
+                <div class="color-bar" id="bar1"></div>
+                <div class="color-bar" id="bar2"></div>
+                <div class="color-bar" id="bar3"></div>
+                <div class="color-bar" id="bar4"></div>
+                <div class="color-bar" id="bar5"></div>
+            </div>
+            <div class="bar-values">
+                <p id="bar-value1">#F55A5A</p>
+                <p id="bar-value2">#2B283A</p>
+                <p id="bar-value3">#FBF3AB</p>
+                <p id="bar-value4">#AAD1B6</p>
+                <p id="bar-value5">#A626D3</p>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
